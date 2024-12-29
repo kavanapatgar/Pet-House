@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-teal-500 text-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-3xl font-bold">Happy Paws Pet Shop</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">Products</a></li>
+                    <li><a href="#" class="hover:underline">Services</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-teal-400 to-teal-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Your Pet's Happiness is Our Priority</h2>
+            <p class="text-lg mb-6">Discover the best products and services for your furry friends.</p>
+            <button class="bg-white text-teal-600 font-semibold py-2 px-4 rounded shadow-md hover:bg-teal-100">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="container mx-auto py-12 px-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Popular Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img1.jpg" alt="Pet Food" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Premium Dog Food</h3>
+                    <p class="text-gray-600 mt-2">Nutritious and delicious meals for your dogs.</p>
+                    <button class="mt-4 bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img2.jpg" alt="Pet Toys" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Fun Pet Toys</h3>
+                    <p class="text-gray-600 mt-2">Keep your pets entertained and active.</p>
+                    <button class="mt-4 bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600">Shop Now</button>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="img5.jfif" alt="Pet Beds" class="w-full">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Comfortable Pet Beds</h3>
+                    <p class="text-gray-600 mt-2">Cozy and soft beds for ultimate relaxation.</p>
+                    <button class="mt-4 bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Happy Paws Pet Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
